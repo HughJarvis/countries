@@ -1,7 +1,7 @@
 <template lang="html">
   <div>
     <!-- <h1>Countries List</h1> -->
-    <!-- <div class="countries-list"> -->
+    <div class="countries-list">
       <ul>
         <list-item v-for="(country, index) in countries" :country="country" :key="index"></list-item>
       </ul>
@@ -10,7 +10,7 @@
       <option disabled value="">Select country</option>
       <option v-for="(country, index) in countries" :value="country">{{country.name}}</option>
     </select> -->
-    <!-- </div> -->
+    </div>
   </div>
 </template>
 
